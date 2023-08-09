@@ -1,0 +1,339 @@
+/* ------ margen ------*/
+
+*{
+    margin: 0px;
+}
+
+
+/* ------ header ----- */
+
+body header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+body header img{
+    width: 15vw;
+}
+
+body header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body header nav ul li{
+    margin: 5px;
+}
+
+body header nav ul li a{
+    color: rgb(5, 0, 0);
+    text-decoration: none;
+    padding: 3px 5px 3px 5px;
+    }
+
+body header nav ul li a:hover{ 
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #19a982;
+    }
+
+
+main section h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+
+/* ------ main ----- */
+
+main section{
+    padding-bottom: 20px;
+}
+
+
+.categorias{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+
+}
+
+
+
+
+.titulo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #11785c;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    text-align: center;
+}
+.categorias div{
+    
+    margin: 30px;
+    width: 230px;
+    height: 360px;
+    text-align: center;
+
+}
+
+.categorias div img{
+    width: 230px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.categorias div a { 
+    text-decoration: none;
+    color:  rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px 5px 3px 5px;
+}
+
+
+.categorias div a:hover{
+    background-color: #11785c;
+    color: #ffffff;
+}
+.video{
+    margin: 50px;
+
+}
+
+.video iframe{
+    width: 90vw;
+    height: 550px;
+}
+
+.vende{
+    margin: 100px;
+}
+
+
+
+.vende h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.vende ol li h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+
+.vende ol li p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.vende p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.vende h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.vende h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vende ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+.cambios{
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cambios h1{
+    font-size: 20px;
+}
+
+.cambios p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.cambios h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+
+
+.cambios ul li{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.cambios ol li{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.nosotros{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+}
+
+.nosotros h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.nosotros p{
+    font-size: 15px;
+}
+
+.envios{
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.envios h1{
+    font-size: 20px;
+}
+
+.envios h2{
+    font-size: 15px;
+}
+.envios h3{
+    font-size: 15px;
+}
+
+.envios p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+.contacto{
+    margin: 100px;
+}
+
+.contacto section div {
+    padding-top: 20px;
+}
+
+/* ------ footer ----- */
+footer {
+    background-color: #19a982;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+footer ul li{
+    padding: 5px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer section a img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width:800px ){
+    body header nav ul {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        margin-top: 10px;
+        }
+    .titulo h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        }
+        
+}
+
+@media screen and (max-width:600px){
+    .video{
+        display: none;
+    }
+    .vende{
+        margin: 20px;
+    }
+    .vende h1{
+        font-size: 10px;
+    }
+    .vende ol li h2{
+        font-size: 10px;
+    }
+    .vende ol li p{
+        font-size: 10px;
+    }
+    .vende p{
+        font-size: 10px;
+    }
+    .vende h2{
+        font-size: 10px;
+    }
+    .vende h3{
+        font-size: 10px;
+    }
+    .vende ul li{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .cambios{
+        margin: 20px;
+    }
+    .cambios h1{
+        font-size:10px;
+    }
+    
+    .cambios p{
+        font-size: 10px;
+    }
+    .cambios h2{
+        font-size: 10px;
+        }
+    .cambios ul li{
+        font-size: 10px;
+    }
+    .cambios ol li{
+        font-size: 10px;
+    }
+    .nosotros{
+        margin: 20px;
+    }
+    .nosotros h1{
+        font-size: 10px;
+    }
+    .nosotros p{
+        font-size: 10px;
+    }
+}
