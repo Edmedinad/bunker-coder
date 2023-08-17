@@ -4,20 +4,16 @@
     margin: 0px;
 }
 
-
 /* ------ header ----- */
 
-body header {
-    position: sticky;
-    top: 0;
+.barranavegacion {
     background-color: #ffffff;
     justify-content: center;
     text-align: center;
 }
 
-
-
 body header img{
+    margin-top: 10px;
     width: 15vw;
 }
 
@@ -61,16 +57,12 @@ main section{
     padding-bottom: 20px;
 }
 
-
 .categorias{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap ;
 
 }
-
-
-
 
 .titulo h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -122,8 +114,6 @@ main section{
     margin: 100px;
 }
 
-
-
 .vende h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -166,6 +156,31 @@ main section{
     padding-top: 10px;
 }
 
+.mainshop{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+}
+
+.shop div{
+    margin: 20px;
+    text-align: center;
+}
+
+.shop img{
+    width: 230px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.shop h2 {
+    font-size: 15px;
+}
 
 .cambios{
     margin: 100px;
