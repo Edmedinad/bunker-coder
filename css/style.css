@@ -7,13 +7,14 @@
 /* ------ header ----- */
 
 .barranavegacion {
-    background-color: #ffffff;
+    background-color: #fafafa;
     justify-content: center;
     text-align: center;
 }
 
 body header img{
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 15vw;
 }
 
@@ -22,7 +23,7 @@ body header nav ul {
     display: flex;
     justify-content:center;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #090909;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,7 +32,7 @@ body header nav ul li{
 }
 
 body header nav ul li a{
-    color: rgb(5, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 3px 5px 3px 5px;
     }
@@ -112,7 +113,10 @@ main section{
 
 .vende{
     margin: 100px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .vende h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,6 +164,11 @@ main section{
     margin: 100px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.paginas a{
+    color: #11785c;
 }
 
 .shop{
@@ -215,6 +224,16 @@ main section{
 .nosotros{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros img{
+    height: 500px;
+}
+
+.nosotros div{
+    margin: 20px;
 }
 
 .nosotros h1{
@@ -260,6 +279,9 @@ main section{
 /* ------ footer ----- */
 footer {
     background-color: #19a982;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer ul{
@@ -278,6 +300,7 @@ footer ul li a {
 footer section a img{
     width: 50px;
     height: 50px;
+    margin: 20px;
 }
 
 
