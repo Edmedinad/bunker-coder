@@ -62,7 +62,6 @@ main section{
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap ;
-
 }
 
 .titulo h1{
@@ -75,7 +74,7 @@ main section{
     text-align: center;
 }
 .categorias div{
-    
+
     margin: 30px;
     width: 230px;
     height: 360px;
@@ -313,7 +312,7 @@ footer section a img{
     .titulo h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
-        }
+        }        
         
 }
 

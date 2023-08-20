@@ -1,0 +1,182 @@
+main{
+    .titulo{
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            color: white;
+            background-color: #11785c;
+            margin: 10px 0px 10px 0px;
+            padding: 20px;
+            text-align: center;
+        }
+    }
+    .categorias{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap ;
+        div{
+            margin: 30px;
+            width: 230px;
+            height: 360px;
+            text-align: center;
+            img{
+                width: 230px;
+                height: 300px;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none;
+                color:  rgb(0, 0, 0);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: 3px 5px 3px 5px;
+                &:hover{
+                    background-color: #11785c;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .video{
+        margin: 50px;
+        iframe{
+            width: 90vw;
+            height: 550px;
+        }
+    }
+}
+
+.vende{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    section{
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        ol{
+            li{
+                h2{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 15px;
+                    padding-top: 20px;
+                }
+                p{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 15px;
+                    padding-top: 10px;
+                }
+            }
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            padding-top: 20px;
+        }
+        h2{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            padding-top: 30px;
+        }
+        h3{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        ul{
+            li{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                padding-top: 10px;
+            };
+        };
+    }
+}
+
+.cambios{
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    h2{
+        font-size: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    ul{
+        li{
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+    }
+    ol{
+        li{
+            font-size: 15px;
+            padding: 10px;
+        }
+    }
+}
+
+.nosotros{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    div{
+        img{
+            height: 500px;
+        }
+    }
+    div{
+        margin: 20px;
+        section{
+            h1{
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.envios{
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    h1{
+        font-size: 20px;
+    }
+    section{
+        h2{
+            font-size: 15px;
+        }
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 15px;
+            padding-top: 10px;
+        }
+    }
+}
+
+.contacto{
+    margin: 100px;
+    section{
+        form{
+            div{
+                padding-top: 20px;
+                h1{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

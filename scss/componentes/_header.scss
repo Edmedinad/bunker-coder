@@ -1,0 +1,33 @@
+.barranavegacion{
+    background-color: #fafafa;
+    justify-content: center;
+    text-align: center;
+    img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 15vw;
+    };
+    nav{
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content:center;
+            text-align: center;
+            background-color: #090909;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            li{
+                margin: 5px;
+                a{
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    padding: 3px 5px 3px 5px;
+                    &:hover{
+                        color: #ffffff;
+                        font-weight: bold;
+                        background-color: #19a982;
+                    }
+                }
+            }
+        }
+    }
+}
