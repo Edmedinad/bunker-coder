@@ -1,3 +1,9 @@
+main .categorias div a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3px 5px 3px 5px; }
+
 * {
   margin: 0px; }
 
@@ -21,17 +27,18 @@
       .barranavegacion nav ul li a {
         color: white;
         text-decoration: none;
-        padding: 3px 5px 3px 5px; }
+        padding: 3px 10px 3px 10px;
+        transition: 1s; }
         .barranavegacion nav ul li a:hover {
+          transform: scale(1.1);
           color: #ffffff;
-          font-weight: bold;
-          background-color: #19a982; }
+          background-color: #d60998; }
 
 main .titulo h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   color: white;
-  background-color: #11785c;
+  background-color: #118667;
   margin: 10px 0px 10px 0px;
   padding: 20px;
   text-align: center; }
@@ -44,23 +51,23 @@ main .categorias {
     margin: 30px;
     width: 230px;
     height: 360px;
-    text-align: center; }
+    text-align: center;
+    transition: 500ms; }
+    main .categorias div:hover {
+      transform: scale(1.1); }
     main .categorias div img {
       width: 230px;
       height: 300px;
       margin-bottom: 20px; }
     main .categorias div a {
-      text-decoration: none;
-      color: black;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      padding: 3px 5px 3px 5px; }
+      transition: 500ms; }
       main .categorias div a:hover {
-        background-color: #11785c;
+        background-color: #d60998;
         color: #ffffff; }
 
-main .video {
+.video {
   margin: 50px; }
-  main .video iframe {
+  .video iframe {
     width: 90vw;
     height: 550px; }
 
@@ -151,8 +158,27 @@ main .video {
     .contacto section form div h1 {
       font-size: 20px; }
 
+.mainshop {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .mainshop .shop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto; }
+    .mainshop .shop div {
+      margin: 20px;
+      text-align: center; }
+      .mainshop .shop div img {
+        width: 230px;
+        height: 300px;
+        margin-bottom: 20px; }
+      .mainshop .shop div h2 {
+        font-size: 15px; }
+
 footer {
-  background-color: #19a982;
+  background: linear-gradient(#09c391, #0d9772);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -163,11 +189,19 @@ footer {
       padding: 5px; }
       footer ul li a {
         text-decoration: none;
-        color: #ffffff; }
+        font-weight: bold;
+        color: #ffffff;
+        transition: 1s; }
+        footer ul li a:hover {
+          font-weight: 10px;
+          color: #d60998; }
   footer .redesociales img {
     width: 50px;
     height: 50px;
-    margin: 20px; }
+    margin: 20px;
+    transition: 500ms; }
+    footer .redesociales img:hover {
+      transform: scale(1.3); }
 
 @media screen and (max-width: 800px) {
   .barranavegacion nav ul {
