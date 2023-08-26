@@ -129,25 +129,29 @@ main{
 .nosotros{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 100px;
-    display: flex;
-    justify-content: center;
-    div{
+    Section{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
         img{
-            height: 500px;
+            height: 700px;
+            margin:10px;
+        .textonosotros{
+                height: 700px;
+                width: 400px;
+                margin: 0px;
+                h1{
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                p{
+                    font-size: 15px;
+                    text-align: justify;
+                }
+            }
         }
     }
-    div{
-        margin: 20px;
-        section{
-            h1{
-                font-size: 20px;
-                padding-bottom: 20px;
-            }
-            p{
-                font-size: 15px;
-            }
-        }
-    }
+    
 }
 
 .envios{
