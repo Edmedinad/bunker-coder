@@ -56,6 +56,8 @@ main{
         h1{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 20px;
+            color: #d60998;
+            font-weight: bold;
         }
         ol{
             li{
@@ -80,12 +82,15 @@ main{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 20px;
             padding-top: 30px;
+            color: #d60998;
+            font-weight: bolder;
         }
         h3{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 15px;
             padding-top: 20px;
             padding-bottom: 20px;
+            color: #d60998;
         }
         ul{
             li{
@@ -102,6 +107,8 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     h1{
         font-size: 20px;
+        font-weight: bold;
+        color: #d60998;
     }
     p{
         font-size: 15px;
@@ -111,6 +118,7 @@ main{
         font-size: 20px;
         padding-bottom: 20px;
         padding-top: 20px;
+        color: #d60998;
     }
     ul{
         li{
@@ -127,7 +135,6 @@ main{
 }
 
 .nosotros{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 100px;
     Section{
         display: flex;
@@ -141,8 +148,10 @@ main{
                 width: 400px;
                 margin: 0px;
                 h1{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
                     font-size: 20px;
                     padding-bottom: 20px;
+                    
                 }
                 p{
                     font-size: 15px;
@@ -159,13 +168,17 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     h1{
         font-size: 20px;
+        color: #d60998;
+        font-weight: bold;
     }
     section{
         h2{
             font-size: 15px;
+            color: #d60998;
         }
         h3{
             font-size: 15px;
+            color: #d60998;
         }
         p{
             font-size: 15px;
@@ -176,14 +189,33 @@ main{
 
 .contacto{
     margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
     section{
         form{
+            font-size: 20px;
+            color: #d60998;
             div{
+                font-size: 20px;
                 padding-top: 20px;
+                input{
+                    color: #f8f6f8;
+                }
                 h1{
                     font-size: 20px;
                 }
+                .boton{
+                    background-color: #118667;
+                    border-radius: 3px;
+                    border-color: #d60998;
+                }
             }
+        }
+    }
+    section{
+        h2{
+            color: #d60998;
         }
     }
 }
@@ -200,6 +232,7 @@ main{
         div{
             margin: 20px;
             text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             img{
                 width: 230px;
                 height: 300px;
@@ -208,6 +241,16 @@ main{
             h2{
                 font-size: 15px;
             }
+            a{
+                font-size: 10px;
+                margin: 10px;
+                @extend %boton;
+                transition: 500ms;
+                &:hover{
+                    background-color:#d60998;
+                    color: #ffffff;
+                }
+            }
         }
-    }   
+    }
 }

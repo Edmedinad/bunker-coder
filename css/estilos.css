@@ -1,4 +1,4 @@
-main .categorias div a {
+main .categorias div a, .mainshop .shop div a {
   text-decoration: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -77,7 +77,9 @@ main .categorias {
   flex-direction: column; }
   .vende section h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+    color: #d60998;
+    font-weight: bold; }
   .vende section ol li h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -93,12 +95,15 @@ main .categorias {
   .vende section h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    padding-top: 30px; }
+    padding-top: 30px;
+    color: #d60998;
+    font-weight: bolder; }
   .vende section h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    color: #d60998; }
   .vende section ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
@@ -108,14 +113,17 @@ main .categorias {
   margin: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .cambios h1 {
-    font-size: 20px; }
+    font-size: 20px;
+    font-weight: bold;
+    color: #d60998; }
   .cambios p {
     font-size: 15px;
     padding-top: 20px; }
   .cambios h2 {
     font-size: 20px;
     padding-bottom: 20px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    color: #d60998; }
   .cambios ul li {
     font-size: 15px;
     padding-bottom: 10px; }
@@ -124,7 +132,6 @@ main .categorias {
     padding: 10px; }
 
 .nosotros {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 100px; }
   .nosotros Section {
     display: flex;
@@ -138,6 +145,7 @@ main .categorias {
         width: 400px;
         margin: 0px; }
         .nosotros Section img .textonosotros h1 {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
           font-size: 20px;
           padding-bottom: 20px; }
         .nosotros Section img .textonosotros p {
@@ -148,21 +156,40 @@ main .categorias {
   margin: 100px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .envios h1 {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #d60998;
+    font-weight: bold; }
   .envios section h2 {
-    font-size: 15px; }
+    font-size: 15px;
+    color: #d60998; }
   .envios section h3 {
-    font-size: 15px; }
+    font-size: 15px;
+    color: #d60998; }
   .envios section p {
     font-size: 15px;
     padding-top: 10px; }
 
 .contacto {
-  margin: 100px; }
-  .contacto section form div {
-    padding-top: 20px; }
-    .contacto section form div h1 {
-      font-size: 20px; }
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .contacto section form {
+    font-size: 20px;
+    color: #d60998; }
+    .contacto section form div {
+      font-size: 20px;
+      padding-top: 20px; }
+      .contacto section form div input {
+        color: #f8f6f8; }
+      .contacto section form div h1 {
+        font-size: 20px; }
+      .contacto section form div .boton {
+        background-color: #118667;
+        border-radius: 3px;
+        border-color: #d60998; }
+  .contacto section h2 {
+    color: #d60998; }
 
 .mainshop {
   margin: 100px;
@@ -175,13 +202,21 @@ main .categorias {
     grid-auto-rows: auto; }
     .mainshop .shop div {
       margin: 20px;
-      text-align: center; }
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
       .mainshop .shop div img {
         width: 230px;
         height: 300px;
         margin-bottom: 20px; }
       .mainshop .shop div h2 {
         font-size: 15px; }
+      .mainshop .shop div a {
+        font-size: 10px;
+        margin: 10px;
+        transition: 500ms; }
+        .mainshop .shop div a:hover {
+          background-color: #d60998;
+          color: #ffffff; }
 
 footer {
   background: linear-gradient(#09c391, #0d9772);
